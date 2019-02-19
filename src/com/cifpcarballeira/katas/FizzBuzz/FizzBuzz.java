@@ -15,7 +15,7 @@ public class FizzBuzz {
         if (i%5 == 0)
             return "Buzz";
         if (i%3 == 0)
-            return "Fizz";
+            return "Fizz";/**/
         else 
             return new Integer(i).toString();
     }
