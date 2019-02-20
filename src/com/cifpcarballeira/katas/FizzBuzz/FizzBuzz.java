@@ -20,8 +20,10 @@ public class FizzBuzz {
             return "Buzz";
         if (i%3 == 0)
             return "Fizz";
-        if (new Integer(i).toString().contains("3"))
-            return "Fizz";
+        if (new Integer(i).toString().contains("3"))            
+            return "Fizz";/**/
+	if (new Integer(i).toString().contains("5"))
+            return "Buzz";
         else 
             return new Integer(i).toString();
     }
